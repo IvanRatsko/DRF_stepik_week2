@@ -35,6 +35,7 @@ class OrderAddressSerializer(ModelSerializer):
         model = Order
         fields = ['delivery_address']
 
+
 class OrderStatusSerializer(ModelSerializer):
     class Meta:
         model = Order
